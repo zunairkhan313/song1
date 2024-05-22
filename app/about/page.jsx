@@ -41,6 +41,7 @@ const About = () => {
                                 className='object-cover img-fluid'
                                 width={"100px"}
                                 style={{ "height": "550px" }}
+                                alt='about'
                             />
                         </div>
                     </div>
@@ -59,6 +60,7 @@ const About = () => {
                                 className='object-cover img-fluid'
                                 width={"100px"}
                                 style={{ "height": "550px" }}
+                                alt='about'
                             />
                         </div>
                     </div>
@@ -80,6 +82,7 @@ const About = () => {
                                 className='object-cover img-fluid'
                                 width={"100px"}
                                 style={{ "height": "550px" }}
+                                alt='about'
                             />
                         </div>
                     </div>
@@ -103,6 +106,7 @@ const About = () => {
                                 className='object-cover img-fluid'
                                 width={"100px"}
                                 style={{ "height": "550px" }}
+                                alt='about'
                             />
                         </div>
                     </div>

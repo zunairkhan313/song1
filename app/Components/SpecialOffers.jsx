@@ -83,7 +83,7 @@ export default function SpecialOffers(){
             </SwiperSlide>
             <SwiperSlide>
             <div className='flex flex-col items-center border-2 rounded'>
-                    <Image src={slide11} className='object-cover' width={"70px"} style={{ "height": "200px" }} />
+                    <Image src={slide11} className='object-cover' width={"70px"} style={{ "height": "200px" }} alt='slides'/>
                     <div className='mt-3 text-center p-2'>
                         <p>Telescopic ladder <br /> THLAD08101 | Company: <br /> Total | Origin: China <br/> <span className="font-bold" style={{color:"#ff3333"}}>Rs5000</span></p>
                        
@@ -113,7 +113,7 @@ export default function SpecialOffers(){
             </SwiperSlide>
             <SwiperSlide>
             <div className='flex flex-col items-center border-2 rounded'>
-                    <Image src={slide8} className='object-cover' width={"70px"} style={{ "height": "200px" }} />
+                    <Image src={slide8} className='object-cover' width={"70px"} style={{ "height": "200px" }} alt='slides'/>
                     <div className='mt-3 text-center p-2'>
                         <p>Telescopic ladder <br /> THLAD08101 | Company: <br /> Total | Origin: China <br/> <span className="font-bold" style={{color:"#ff3333"}}>Rs5000</span></p>
                        
