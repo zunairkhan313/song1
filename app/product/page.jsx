@@ -61,7 +61,7 @@ const Product = () => {
 
 
                                 <div style={{ "height": "100%", "width": 300 }} className='mt-5 shadow p-3 mb-5 bg-body-tertiary rounded'>
-                                    <div className='flex flex-wrap justify-around'>
+                                    <div key={i} className='flex flex-wrap justify-around'>
 
                                         <Image
                                             style={{ "height": "250px" }}

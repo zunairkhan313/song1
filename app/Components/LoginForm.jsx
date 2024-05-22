@@ -1,11 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import React,{ useState ,useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import { signIn } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import Loader from "./Loader";
-
 
 export default function LoginForm() {
     const [email, setEmail] = useState("");
@@ -49,12 +48,13 @@ export default function LoginForm() {
 
         fetchData();
     }, []);
+
     return (
         <div className="grid place-items-center h-screen">
             {loading ? (
                 <Loader /> // Render your loader component while loading is true
             ) : (
-                <div style={{ "borderColor": "rgb(255, 61, 31)" }} className="shadow-lg p-5 rounded-lg border-t-4">
+                <div style={{ borderColor: "rgb(255, 61, 31)" }} className="shadow-lg p-5 rounded-lg border-t-4">
                     <h1 className="text-xl font-bold my-4">Login</h1>
 
                     <form onSubmit={handleSubmit} className="flex flex-col gap-3">
@@ -70,7 +70,7 @@ export default function LoginForm() {
                             type="password"
                             placeholder="Password"
                         />
-                        <button style={{ "backgroundColor": "rgb(255, 61, 31)" }} className="text-white font-bold cursor-pointer px-6 py-2">
+                        <button style={{ backgroundColor: "rgb(255, 61, 31)" }} className="text-white font-bold cursor-pointer px-6 py-2">
                             Login
                         </button>
                         {error && (
@@ -79,9 +79,8 @@ export default function LoginForm() {
                             </div>
                         )}
                         <Link className="text-sm mt-3 text-right" href={"/register"}>
-                            Don't have an account? <span className="underline">Register</span>
+                            Don&apos;t have an account? <span className="underline">Register</span>
                         </Link>
-
                     </form>
                 </div>
             )}

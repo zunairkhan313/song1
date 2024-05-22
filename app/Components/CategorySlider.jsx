@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useRef, useState } from 'react';
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
@@ -53,78 +53,87 @@ export default function CateSliders() {
               className='object-cover'
               width={"100px"}
               style={{ "height": "400px" }}
+              alt="slides"
             />
           </Link>
+
         </SwiperSlide>
         <SwiperSlide>
           <Link href={"/product"}>
 
             <Image src={slide2}
-
+              alt="slides"
               width={"100px"}
               style={{ "height": "400px" }}
             />
           </Link>
+
         </SwiperSlide>
         <SwiperSlide>
           <Link href={"/product"}>
 
             <Image src={slide3}
-
+              alt="slides"
               width={"100px"}
               style={{ "height": "400px" }}
             />
           </Link>
+
         </SwiperSlide>
         <SwiperSlide>
           <Link href={"/product"}>
 
             <Image src={slide4}
-
+              alt="slides"
               width={"100px"}
               style={{ "height": "400px" }}
             />
           </Link>
+
         </SwiperSlide>
         <SwiperSlide>
           <Link href={"/product"}>
 
             <Image src={slide5}
-
+              alt="slides"
               width={"100px"}
               style={{ "height": "400px" }}
             />
           </Link>
+
         </SwiperSlide>
         <SwiperSlide>
           <Link href={"/product"}>
 
             <Image src={slide6}
-
+              alt="slides"
               width={"100px"}
               style={{ "height": "400px" }}
             />
           </Link>
+
         </SwiperSlide>
         <SwiperSlide>
           <Link href={"/product"}>
 
             <Image src={slide7}
-
+              alt="slides"
               width={"100px"}
               style={{ "height": "400px" }}
             />
           </Link>
+
         </SwiperSlide>
         <SwiperSlide>
           <Link href={"/product"}>
 
             <Image src={slide8}
-
+              alt="slides"
               width={"100px"}
               style={{ "height": "400px" }}
             />
           </Link>
+
         </SwiperSlide>
         <SwiperSlide>
           <Link href={"/product"}>
@@ -133,8 +142,10 @@ export default function CateSliders() {
 
               width={"100px"}
               style={{ "height": "400px" }}
+              alt="slides"
             />
           </Link>
+
         </SwiperSlide>
         <SwiperSlide>
           <Link href={"/product"}>
@@ -144,6 +155,7 @@ export default function CateSliders() {
               className='object-cover'
               width={"100px"}
               style={{ "height": "400px" }}
+              alt="slides"
             />
           </Link>
         </SwiperSlide>
@@ -155,6 +167,7 @@ export default function CateSliders() {
               className='object-cover'
               width={"100px"}
               style={{ "height": "400px" }}
+              alt="slides"
             />
           </Link>
         </SwiperSlide>
@@ -166,6 +179,7 @@ export default function CateSliders() {
               className='object-cover'
               width={"100px"}
               style={{ "height": "400px" }}
+              alt="slides"
             />
           </Link>
         </SwiperSlide>
@@ -176,8 +190,10 @@ export default function CateSliders() {
               className='object-cover'
               width={"100px"}
               style={{ "height": "400px" }}
+              alt="slides"
             />
           </Link>
+
         </SwiperSlide>
         <SwiperSlide>
           <Link href={"/product"}>
@@ -187,6 +203,7 @@ export default function CateSliders() {
               className='object-cover'
               width={"100px"}
               style={{ "height": "400px" }}
+              alt="slides"
             />
           </Link>
         </SwiperSlide>
@@ -198,6 +215,7 @@ export default function CateSliders() {
               className='object-cover'
               width={"100px"}
               style={{ "height": "400px" }}
+              alt="slides"
             />
           </Link>
         </SwiperSlide>
